@@ -40,15 +40,16 @@
         text-decoration: none;
         font-size: 1rem;
         font-family: 'Poiret One';
-        
     }
 
     a:visited{
         color: #222;
+        
     }
-
-
-
+    a:hover{
+        background-color: #f8ebc2;
+        padding: 0.5rem;
+    }
     /* main */
     .main{
         width: 100%;
@@ -57,14 +58,11 @@
     /* banner */
     .banner{
         width: 100%;
-        background-color: #b6e3e9;
-        /* height: 500px; */
+        /* background-color: #b6e3e9; */
         display: flex;
         justify-content: space-around;
         padding: 2rem;
-        
     }
-
 
     .ban-word{
         padding: 1rem;
@@ -74,7 +72,7 @@
     .ban-word > h2{
         font-size: 5rem;
         letter-spacing: 2rem;
-        color: #0cc0d8;
+        
         margin: 1rem 1rem 3rem;
     }
 
@@ -318,12 +316,14 @@
         padding: 1.5rem;
         font-family: 'Poiret One','微軟正黑體';
         letter-spacing: 0.6rem; 
+       
         
     }
     .iconGrid{
         display: flex;
         justify-content: center;
-        padding: 2rem;
+        margin-top: 1rem;
+       
     }
     .icon{
         width: 50px;  
@@ -334,6 +334,9 @@
     .icon>a>img{
         width: 100%;
         object-fit: cover;
+    }
+    .footer>div{
+        margin-bottom: 1rem;
     }
 
 
