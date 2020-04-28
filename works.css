@@ -51,6 +51,19 @@
         background-color: #f8ebc2;
         padding: 0.5rem;
     }
+
+    /* main */
+    /* s1 */
+
+    .s1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .s1title{
+        margin: 2rem;
+    }
      /* Footer */
      .footer{
         background-color: #faf1d6;
@@ -81,3 +94,4 @@
     .footer>div{
         margin-bottom: 1rem;
     }
+   
