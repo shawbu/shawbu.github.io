@@ -64,6 +64,10 @@
     .s1title{
         margin: 2rem;
     }
+    .s1 a:hover{
+        background-color: rgba(238, 160, 160, 0.5);
+        padding:0;
+    }
      /* Footer */
      .footer{
         background-color: #faf1d6;

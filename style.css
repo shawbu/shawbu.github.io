@@ -189,10 +189,15 @@
         margin-bottom: 1rem;
     }
 
+    .footer a:hover{
+        background-color: none;
+        padding: 0;
+    }
 
 
-    /* tablet 1024-720 */
-    @media screen and (max-width:1024px){
+
+/* tablet 1024-720 */
+@media screen and (max-width:1024px){
         *{
         font-size: 1rem;
         }
@@ -200,8 +205,8 @@
         .ban-detail{
             font-size: 1.4rem;
         }
-       
-    /* smartphone */
+     
+/* smartphone */
 @media screen and (max-width:768px){
     
     .banner{
@@ -229,6 +234,6 @@
         width: auto;
         height: auto;
     }
-
+   
 
 }
