@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+    * {
+        box-sizing: border-box;
+        font-family: 'Poiret One','微軟正黑體';
+        font-size: 20px;
+        color: #333;
+    
+    }
+
+    h2{
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+    }
+    h3{
+        font-size:1.5rem ;
+        letter-spacing: 0.2rem;
+    }
+
+    .header{
+        width: 100%;
+        background-color:#faf1d6;
+        display: flex;
+        color: #222;
+        justify-content: space-between;
+        padding: 20px;
+        font-family: 'Poiret One';
+        letter-spacing:0.2rem;
+    }
+    .nav{
+        display: flex;
+        letter-spacing: 3px;
+        width: 30%;
+        justify-content: space-around;
+    }
+
+    a:link{
+        color: #222;
+        text-decoration: none;
+        font-size: 1rem;
+        font-family: 'Poiret One';
+        
+    }
+
+    a:visited{
+        color: #222;
+    }
+
