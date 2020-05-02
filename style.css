@@ -117,7 +117,7 @@
         width: 100%;
         display: grid;
         grid-template-rows:500px 500px;
-        grid-template-columns: 20% 1fr 1fr 20%;
+        grid-template-columns: 15% 1fr 1fr 15%;
         grid-gap: 1rem;
         padding: 2rem;
         
@@ -202,32 +202,88 @@
         *{
         font-size: 1rem;
         }
-
         .ban-detail{
             font-size: 1.4rem;
         }
      
+        .ban-pic{
+            width: 300px;
+            height: 300px;
+        }
+
+        .ban-word > h2{
+            font-size: 3rem;
+            letter-spacing: 2rem;
+            margin: 1rem 1rem 3rem;
+        }
+
+        /* work part */
+        .workgrid{
+            width: 100%;
+            display: grid;
+            grid-template-rows:300px 300px;
+            grid-template-columns: 10% 1fr 1fr 10%;
+            grid-gap: 1rem;
+            padding: 2rem;
+            
+        }
+
 /* smartphone */
 @media screen and (max-width:768px){
     
     .banner{
-        display: block;
+        /* display: block; */
+        padding: 0.2rem;
     }
     .ban-word{
-        display: flex;
+        display: block;
     }
     .ban-pic{
         width: 100%;
         display: flex;
         justify-content: center;
+        width: 200px;
+        height: 200px;
     }
     .ban-word>h2{
-        font-size: 2.5rem;
+        font-size: 2rem;
+        margin: 0;
     }
     .ban-detail{
         font-size: 1rem;
     }
-   
+    /* work part */
+    .workgrid{
+        width: 100%;
+        display: grid;
+        grid-template-rows:repeat(4,300px);
+        grid-template-columns: 10% 1fr 10%;
+        grid-gap: 1rem;
+        padding: 2rem; 
+    }
+
+    .part1{
+        grid-row: 1;
+        grid-column: 2;
+        position: relative;
+    }
+ 
+    .part2{
+        grid-row: 2;
+        grid-column: 2;
+        position: relative;
+    }
+    .part3{
+        grid-row: 3;
+        grid-column: 2;
+        position: relative;
+    }
+    .part4{
+        grid-row: 4;
+        grid-column: 2;
+        position: relative;
+    }
+
     img{
         /* opacity: 0.2; */
         max-height: 100%;  

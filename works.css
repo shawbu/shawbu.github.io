@@ -74,16 +74,18 @@
         width: 100%;
         text-align: center;
         background-color: rgb(214, 130, 130);
+        /* padding: 3rem; */
+    }
+    .wrapper>h2{
         padding: 3rem;
     }
-   
     .wrapper-grid{
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 300px 300px 300px 1fr;
         grid-template-rows: repeat(3,300px);
         grid-gap: 20px;
-        padding: 3rem;
+        padding-bottom: 3rem;
     }
     .item1{
         grid-area: 1/2/3/4;
@@ -132,5 +134,56 @@
 
     /* sec B */
     .sec-b{
-        background-color: rgb(168, 219, 235);
+        background-color: rgb(253, 211, 147);
     }
+
+    /* tablet 1024-768 */
+@media screen and (max-width:1024px){
+
+    .wrapper-grid{
+        grid-template-columns: 1fr 200px 200px 200px 1fr;
+        grid-template-rows: repeat(3,200px);
+    }
+    
+}
+
+/* smartphone */
+@media screen and (max-width:768px){
+    
+    .wrapper-grid{
+        grid-template-columns: 1fr 200px 200px 1fr;
+        grid-template-rows: repeat(5,200px);
+    }
+    .item1{
+        grid-area: 1/2/3/4;
+        background-color: #fff;
+    }
+    .item2{
+        grid-area: 3/2/4/3;
+        background-color: #fff;
+    }
+    .item3{
+        grid-area: 3/3/4/4;
+        background-color: #fff;
+    }
+    .item4{
+        grid-area: 4/2/5/3;
+        background-color: #fff;
+    }
+    .item5{
+        grid-area: 4/3/5/4;
+        background-color: #fff;
+    }
+    .item6{
+        grid-area: 5/3/6/4;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 4rem;
+    }
+    .item6> .icon-size{
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+        margin: 0 auto 1rem;
+    }
+
+}
