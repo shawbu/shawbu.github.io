@@ -161,8 +161,8 @@
     padding: 2rem 0 ;
 }
     .wrapper-grid{
-        grid-template-columns: 1fr 150px 150px 1fr;
-        grid-template-rows: repeat(5,150px);
+        grid-template-columns: 1fr 100px 100px 1fr;
+        grid-template-rows: repeat(5,100px);
         grid-gap: 10px;
     }
     .item1{
