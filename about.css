@@ -6,7 +6,6 @@
         font-family: 'Poiret One','微軟正黑體';
         font-size: 20px;
         color: #333;
-    
     }
 
     h2{
@@ -40,9 +39,7 @@
         text-decoration: none;
         font-size: 1rem;
         font-family: 'Poiret One','微軟正黑體';
-        
     }
-
     a:visited{
         color: #222;
     }
@@ -138,6 +135,9 @@
 
 /* tablet 1024-720 */
 @media screen and (max-width:1024px){
+    .nav{
+        width: 50%;
+    }
     .banner{
        display: block;
         padding: 2rem;
@@ -147,5 +147,24 @@
         padding: 2rem;
         line-height: 1.5rem;
     }
+    .ban-pic{
+        width: 400px;
+        height: 400px;
+    }
 
+
+}
+
+/* smartphone */
+@media screen and (max-width:768px){
+    *{
+        font-size: 0.8rem;
+    }
+    .nav{
+        width: 60%;
+   }
+    .ban-pic{
+        width: 300px;
+        height: 300px;
+    }
 }

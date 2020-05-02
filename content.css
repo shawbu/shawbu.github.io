@@ -68,10 +68,11 @@
     }
     .words{
         padding-top: 3rem;
+        text-align: center;
     }
     .words p{
         letter-spacing: 0.2rem;
-        
+        margin: 1rem 0 2rem;   
     }
     .wrapper h2{
         width: 600px;
@@ -101,3 +102,39 @@
         background-color: rgba(255,255,255,0);
         padding: 0;
     }
+ /* tablet 1024-768 */
+@media screen and (max-width:1024px){
+        *{
+            font-size: 16px;
+        }
+        .nav{
+            width: 50%;
+       }
+        .wrapper h2{
+        width: 400px;
+        line-height: 2rem;
+        
+        }
+        .content >h2{
+            font-size: 20px;
+        }
+}
+    /* smartphone */
+@media screen and (max-width:768px){
+    .nav{
+        width: 60%;
+    }
+    .words{
+        padding: 1rem;
+    }
+    .wrapper h2{
+        width: 100%;
+    }
+    .content{
+        margin: 0;
+        background-color: #faf1d6;
+    }
+    .content>h2{
+        width: 100%;
+    }
+}
