@@ -139,6 +139,9 @@
 
     /* tablet 1024-768 */
 @media screen and (max-width:1024px){
+    .wrapper>h2{
+        padding: 2rem 0;
+    }
     .nav{
         width: 50%;
    }
@@ -154,9 +157,13 @@
     .nav{
         width: 60%;
    }
+   .wrapper>h2{
+    padding: 2rem 0 ;
+}
     .wrapper-grid{
-        grid-template-columns: 1fr 200px 200px 1fr;
-        grid-template-rows: repeat(5,200px);
+        grid-template-columns: 1fr 150px 150px 1fr;
+        grid-template-rows: repeat(5,150px);
+        grid-gap: 10px;
     }
     .item1{
         grid-area: 1/2/3/4;
@@ -181,7 +188,10 @@
     .item6{
         grid-area: 5/3/6/4;
         background-color: rgba(255, 255, 255, 0.3);
-        padding: 4rem;
+        padding: 2rem;
+    }
+    .item6 a{
+        font-size: 1rem;
     }
     .item6> .icon-size{
         width: 50%;
