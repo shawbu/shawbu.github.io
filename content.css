@@ -82,6 +82,15 @@
     .content{
         margin: 2rem;
         background-color: #faf1d6;
+        animation: opacity 10s;
+    }
+    @keyframes opacity{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
     }
     .item{
        display: flex;
