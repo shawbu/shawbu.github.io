@@ -59,7 +59,6 @@
     /* banner */
     .banner{
         width: 100%;
-        /* background-color: #b6e3e9; */
         display: flex;
         justify-content: space-around;
         padding: 2rem;
@@ -67,13 +66,13 @@
 
     .ban-word{
         padding: 1rem;
-        
+        margin: 5rem;
     }
 
-    .ban-word > h2{
-        font-size: 5rem;
-        letter-spacing: 2rem;
-        margin: 1rem 1rem 3rem;
+    .ban-pic > h2{
+        font-size: 3rem;
+        letter-spacing: 0.6rem;
+
     }
 
     .ban-detail{
@@ -86,17 +85,35 @@
         margin: 1rem;
     }
     .ban-pic{
-        width: 500px;
-        height: 500px;
-       
-        
+        margin: 5rem;
+        text-align: center;
     }
     .ban-pic > img{
-        width: 100%; 
-        height: 100%;
+        width: 300px; 
+        height: 300px;
         object-fit: cover;
         object-position: top;
         border-radius: 50%;
+    }
+    .ban-info{
+        padding: 1rem;
+        margin: 1rem;
+        text-align: center;
+    }
+    .iconGrid{
+        display: flex;
+        justify-content: center;
+       margin-top:1rem ;
+    }
+    .icon{
+        width: 30px;  
+        height:30px;  
+        margin: 0.5rem;
+    }
+  
+    .icon>img{
+        width: 100%;
+        object-fit: cover;
     }
 
     /* work */
@@ -167,25 +184,9 @@
         padding: 1.5rem;
         font-family: 'Poiret One','微軟正黑體';
         letter-spacing: 0.6rem; 
-       
-        
+
     }
-    .iconGrid{
-        display: flex;
-        justify-content: center;
-        margin-top: 1rem;
-       
-    }
-    .icon{
-        width: 50px;  
-        height: 50px;  
-        margin: 0 1rem;
     
-    }
-    .icon>a>img{
-        width: 100%;
-        object-fit: cover;
-    }
     .footer>div{
         margin-bottom: 1rem;
     }
@@ -208,13 +209,20 @@
         .ban-detail{
             font-size: 1.4rem;
         }
-     
         .ban-pic{
-            width: 300px;
-            height: 300px;
+            margin: 3rem 1rem;
         }
-
-        .ban-word > h2{
+        .ban-pic>img{
+            margin: 1rem;
+            max-width: 200px;
+            max-height: 200px;
+        }
+        .ban-word{
+            margin: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        .ban-pic h2{
             font-size: 3rem;
             letter-spacing: 2rem;
             margin: 1rem 1rem 3rem;
@@ -230,7 +238,7 @@
             padding: 2rem;
             
         }
-
+    }
 /* smartphone */
 @media screen and (max-width:768px){
     *{
@@ -241,25 +249,34 @@
          width: 60%;
     }
     .banner{
-        /* display: block; */
+        display: block; 
         padding: 0.2rem;
     }
-    .ban-word{
-        display: block;
-    }
     .ban-pic{
-        width: 100%;
+        margin: 1rem 0 0;
+    }
+    .ban-info{
+        margin: 0;
+    }
+    .ban-pic>img{
+        margin-top: 2rem;
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .ban-word{
         display: flex;
         justify-content: center;
-        width: 200px;
-        height: 200px;
+        margin: 0;
+        padding: 0;
     }
-    .ban-word>h2{
+    .ban-pic>h2{
         font-size: 2rem;
+        letter-spacing: 0.5rem;
         margin: 0;
     }
     .ban-detail{
         font-size: 1rem;
+        padding: 0;
     }
     /* work part */
     .workgrid{
