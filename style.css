@@ -69,12 +69,6 @@
         margin: 5rem;
     }
 
-    .ban-pic > h2{
-        font-size: 3rem;
-        letter-spacing: 0.6rem;
-
-    }
-
     .ban-detail{
         padding: 2rem;
         line-height: 1.5rem;
@@ -88,12 +82,20 @@
         margin: 5rem;
         text-align: center;
     }
+
+    .ban-pic > h2{
+        font-size: 3rem;
+        letter-spacing: 0.6rem;
+        margin: 1rem;
+    }
+
     .ban-pic > img{
         width: 300px; 
         height: 300px;
         object-fit: cover;
         object-position: top;
         border-radius: 50%;
+        margin: 1rem;
     }
     .ban-info{
         padding: 1rem;
@@ -175,28 +177,7 @@
         padding: 1rem;
     }
     
-    
-    /* Footer */
-    .footer{
-        background-color: #faf1d6;
-        color: #555;
-        text-align: center;
-        padding: 1.5rem;
-        font-family: 'Poiret One','微軟正黑體';
-        letter-spacing: 0.6rem; 
-
-    }
-    
-    .footer>div{
-        margin-bottom: 1rem;
-    }
-
-    .footer a:hover{
-        background-color: rgba(255,255,255,0);
-        padding: 0;
-    }
-
-
+ 
 
 /* tablet 1024-720 */
 @media screen and (max-width:1024px){
@@ -224,8 +205,8 @@
         }
         .ban-pic h2{
             font-size: 3rem;
-            letter-spacing: 2rem;
-            margin: 1rem 1rem 3rem;
+            letter-spacing: 0.8rem;
+            margin: 1rem;
         }
 
         /* work part */
