@@ -1,3 +1,4 @@
+/* tab*/
 $('.tab-list').each(function(){                 
     var $this = $(this);                            
     var $tab = $this.find('li.active');             
@@ -16,5 +17,8 @@ $('.tab-list').each(function(){
         $panel = $(id).addClass('active');         
         $tab = $link.parent().addClass('active');   
       }
+    
     });
   });
+
+  /* SVG hover */

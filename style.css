@@ -151,14 +151,17 @@ a:hover{
     border-radius: 20px;
     
 }
+.border h3{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
 .border-sec1{
     display: flex;
     justify-content: space-between;
     
 }
-.border h3{
-    margin-top: 2rem;
-    margin-left: 1rem;
+.about-left-title{
+    margin-bottom: 1rem;
 }
 .about-item1{
     width: 300px;
@@ -193,15 +196,16 @@ a:hover{
 }
 .about-pic{
     width: 350px;
+    
 }
 .about-pic img{
     width: 100%;
 }
-.about-left-text{
+.about-right-text{
     font-size: 0.8rem;
     line-height: 1rem;
 }
-.about-left-text p{
+.about-right-text p{
     display: flex;
     justify-content: flex-end;
 }
@@ -215,7 +219,7 @@ a:hover{
     background-color: none;
 }
 .svg-size{
-    width: 150px;
+    width: 10rem;
     position: relative;
 }
 
@@ -250,20 +254,34 @@ a:hover{
     position: relative;
     
 }
-.skill-text{
-  
-}
 .tab-panel{
+    width: 60%;
     display: none;
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
-
+    transform: translate(-55%, -60%);
+}
+.skill-detail{
+    padding: 1rem;
+}
+.tab-panel h3{
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+.tab-panel p{
+    margin: 0.3rem;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
 }
 .tab-panel.active{
     display: block;
+}
+path{
+    transition: 2s;
+}
+.svg-size>svg:hover path{
+    fill: #e7aaaa;
 }
 
 
