@@ -6,7 +6,7 @@
     <title>ShawBu's website</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-   
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 </head>
 <body>
     <header class="header">
@@ -52,6 +52,9 @@
 
                 <div class="ban-detail">
                     <div><p>喜歡繪畫、研究前端功能、探索各種新事物</p></div>
+                    <div>
+                        <p>What can I do for you?</p> 
+                    </div>
                     <p>Illustration</p>
                     <p>Graphic Design</p>
                     <p>Front-end Develop</p>
@@ -63,26 +66,98 @@
        <section class="about-me">
            <div class="about-container">
                <div class="border">
-                   <div class="about-left">
-                        <div class="border-mask1"></div>
-                        <h3>真正靈感就是開始做</h3>
-                        <div class="about-item1">
-                            <p>
-                            You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future.
-                            </p>
+                   <div class="border-sec1">
+                        <div class="about-left">
+                            <div class="border-mask1"></div>
+                            <h3>真正靈感就是開始做</h3>
+                            <p>喜歡把想法圖像化，從寫程式中獲得成就感，是每天寫程式動力</p>
+                            <div class="about-item1">
+                                <p>
+                                    You can't connect the dots looking forward;
+                                    you can only connect them looking backwards.
+                                    So you have to trust that the dots will somehow connect in your future.
+                                </p>
+
+                                <p>--Steve Jobs</p>
+                            </div>
+                        </div>
+                        <div class="about-right">
+                            <div class="border-mask2"></div>
+                            <div class="about-pic">
+                                <img src="/pic/shawbu02.jpg" alt="shawbu">
+                            </div>
+                            <div class="about-left-text">
+                                <p>應屆畢業於</p>
+                                <p>國立彰化師範大學</p>
+                                <p>資訊管理學系 數位內容與科技組</p>
+                            </div>
                         </div>
                    </div>
-                   <div class="about-right">
-                       <div class="border-mask"></div>
-                       <div class="about-pic">
-                           <img src="/pic/shawbu02.jpg" alt="shawbu">
-                       </div>
-                       <div class="about-left-text">
-                           <p>應屆畢業於</p>
-                           <p>國立彰化師範大學</p>
-                           <p>資訊管理學習 數位內容與科技組</p>
-                       </div>
-
+                 
+                   <div class="skill">
+                       <div class="tabs">
+                            <ul class="tab-list">
+                                <li class="active">
+                                    <div class="svg-size">
+                                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="#f8ebc2" d="M34.8,-58.3C45.9,-47,56.3,-38.7,65.2,-27.4C74.2,-16,81.7,-1.6,82.3,13.6C82.9,28.9,76.6,44.9,65.3,54.9C54,64.8,37.7,68.7,22.7,69.7C7.7,70.8,-6,68.9,-21.7,67.3C-37.3,65.7,-55,64.3,-64.9,55C-74.7,45.7,-76.8,28.5,-77.4,12.2C-78.1,-4.1,-77.2,-19.5,-70.8,-31.9C-64.4,-44.3,-52.5,-53.7,-39.8,-64.2C-27,-74.7,-13.5,-86.4,-0.8,-85.1C11.8,-83.8,23.7,-69.5,34.8,-58.3Z" transform="translate(100 100)" />
+                                          </svg>
+                                        <a class=" svg-position" href="#tab-1">
+                                            <h3>Font-End</h3>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="svg-size">
+                                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="#f8ebc2" d="M44,-67.2C57.1,-60,67.8,-47.9,75.7,-33.7C83.5,-19.5,88.5,-3,86.2,12.4C84,27.8,74.6,42.1,62.1,50.5C49.7,58.9,34.2,61.4,19.3,65.8C4.4,70.2,-10,76.7,-22.9,74.5C-35.7,72.3,-47.1,61.4,-58.1,49.8C-69.1,38.1,-79.8,25.5,-84,10.8C-88.1,-4,-85.8,-21.1,-79.7,-37.2C-73.5,-53.3,-63.6,-68.5,-49.7,-75.3C-35.8,-82.2,-17.9,-80.7,-1.2,-78.8C15.4,-76.8,30.9,-74.4,44,-67.2Z" transform="translate(100 100)" />
+                                          </svg>
+                                        <a class=" svg-position" href="#tab-2">
+                                            <h3>Illustration</h3>
+                                        </a>
+                                    </div>
+                                    
+                                </li>
+                                <li>
+                                    <div class="svg-size">
+                                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="#f8ebc2" d="M39,-58.9C51.6,-52.7,63.5,-43.6,73.1,-30.9C82.6,-18.3,89.9,-2.2,89.6,14.2C89.2,30.5,81.4,47.1,68.7,56.6C55.9,66.1,38.4,68.6,21.5,73.9C4.6,79.2,-11.7,87.3,-23.6,82.7C-35.4,78.1,-42.7,60.8,-52.8,47C-62.9,33.2,-75.6,22.9,-79.9,10C-84.1,-3,-79.8,-18.7,-72.9,-33.1C-66,-47.4,-56.6,-60.4,-44,-66.6C-31.4,-72.9,-15.7,-72.4,-1.2,-70.4C13.2,-68.5,26.5,-65.1,39,-58.9Z" transform="translate(100 100)" />
+                                          </svg>
+                                          <a class=" svg-position" href="#tab-3">
+                                            <h3>Graphic</h3>
+                                        </a>
+                                    </div>
+                                  
+                                </li>
+                            </ul>
+                           
+                            <div class="svg-size-big">
+                                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="#f8ebc2" d="M38.9,-68.7C51.6,-60.1,63.7,-52,70.9,-40.6C78.1,-29.2,80.4,-14.6,78.6,-1.1C76.8,12.5,70.9,25,65,38.7C59.2,52.4,53.3,67.4,42.5,73.7C31.7,80.1,15.8,77.9,1.2,75.9C-13.5,73.9,-27.1,72.1,-40,67C-53,61.8,-65.4,53.4,-74.3,41.6C-83.2,29.9,-88.6,15,-89.2,-0.4C-89.9,-15.7,-85.7,-31.4,-78.2,-45.4C-70.6,-59.4,-59.5,-71.7,-45.9,-79.8C-32.3,-87.9,-16.2,-91.8,-1.5,-89.2C13.1,-86.6,26.3,-77.4,38.9,-68.7Z" transform="translate(100 100)" />
+                                
+                                </svg>
+                                <div class="tab-panel active" id="tab-1">
+                                    <p>
+                                        Adobe XD
+                                    </p>
+                                </div>
+                                <div class="tab-panel" id="tab-2">
+                                    <p>Adobe Illustrator</p>
+                                    <p>Adobe Photoshop</p>
+                                </div>
+                                <div class="tab-panel" id="tab-3">
+                                    <p>Adobe Illustrator</p>
+                                    <p>Adobe Photoshop</p>
+                                </div>
+                        
+                            </div>
+                            
+                        
+                         
+                    </div>
+                    
+                       
+                       
                    </div>
                </div>
            </div>
@@ -121,6 +196,6 @@
   
      
     </main>
-
+    <script src="/main.js"></script>
 </body>
 </html>

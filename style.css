@@ -6,6 +6,7 @@
     font-family: 'Poiret One','微軟正黑體';
     font-size: 20px;
     color: #333;
+    text-align: center;
 
 }
 
@@ -68,6 +69,8 @@ a:hover{
     margin: 5rem 3rem 5rem 5rem;
     text-align: center;
     background-color: #faf1d6;
+    border-radius: 30px;
+    box-shadow: 10px 10px  30px #999;
 }
 
 .ban-pic > h2{
@@ -118,6 +121,10 @@ a:hover{
     padding: 2rem;
     line-height: 1.5rem;
     font-size: 1.6rem;
+    text-align: right;
+}
+.ban-detail>div{
+    margin-bottom: 1rem;
 }
 .ban-detail>p{
     font-size: 1rem;
@@ -130,18 +137,23 @@ a:hover{
 }
 .about-container{
     width: 100%;
-    height: 500px;
-    background: linear-gradient(to bottom,#FADEE1 50%, rgba(256,256,256) 0%); 
+    
+    background-image: linear-gradient(to top, #fff 20%, #FADEE1 80%);
+   
 }
 .border{
     width: 80%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
+    height: 90%;
     position: relative;
     margin: 2rem auto;
-    padding: 1rem;
+    padding: 5%;
     border:3px #888 solid;
+    border-radius: 20px;
+    
+}
+.border-sec1{
+    display: flex;
+    justify-content: space-between;
     
 }
 .border h3{
@@ -149,33 +161,111 @@ a:hover{
     margin-left: 1rem;
 }
 .about-item1{
-    width: 400px;
-    background-color: #7b88af;
-    padding: 1rem;
+    width: 300px;
+    background-color: #e7aaaa;
+    padding: 0.5rem;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    border-radius:10px;
+    box-shadow: 20px 20px 30px -10px rgba(151, 79, 79, 0.5);
+    font-size: 1rem;
+    text-align: right;
 }
 .border-mask1{
-    width: 40%;
+    width: 60%;
     height: 20px;
     background-color:#fff;
     position: absolute;
-    bottom: -10px;
-    left:15%;
+    bottom: -5px;
+    left: -10%;
 }
-.border-mask{
+.about-right{
+    margin: 2rem;
+}
+.border-mask2{
     width: 50%;
     height: 20px;
     background-color:#FADEE1;
     position: absolute;
-    top: -10px;
-    left:50%;
+    top: -5px;
+    left:55%;
 }
 .about-pic{
-    width: 300px;
+    width: 350px;
 }
 .about-pic img{
     width: 100%;
 }
-.about
+.about-left-text{
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+.about-left-text p{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.skill{
+    width: 100%;
+    height: 500px;
+}
+.svg-size >  a:hover{
+    padding: 0;
+    background-color: none;
+}
+.svg-size{
+    width: 150px;
+    position: relative;
+}
+
+.svg-position{
+    text-decoration: none;
+    transition:0.5s;
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+.svg-position h3{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 900;  
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+}
+
+.tab-list li{
+    margin: -1rem 0;
+}
+.svg-size-big{
+    width: 500px;
+    position: relative;
+    
+}
+.skill-text{
+  
+}
+.tab-panel{
+    display: none;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+.tab-panel.active{
+    display: block;
+}
+
 
 /* work */
   
