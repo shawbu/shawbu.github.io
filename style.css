@@ -475,9 +475,10 @@ path{
     }
     .tab-list{
         display: flex;
+        justify-content: space-around;
     }
     .svg-size{
-        width: 4.5rem;
+        width:5.5rem;
     }
     .svg-size-big{
         width: 100%;
@@ -489,13 +490,13 @@ path{
         transform: translate(-50%, -60%);
     }
     .tab-panel h3{
-        margin: 0.2rem;
-        font-size:0.8rem;
+        margin: 0.3rem;
+        font-size:1rem;
     }
     .tab-panel p{
         margin: 0.1rem;
-        font-size: 0.6rem;
-        letter-spacing: 0.1rem;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
     }
 
 
