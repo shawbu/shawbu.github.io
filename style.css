@@ -151,14 +151,9 @@ a:hover{
     border-radius: 20px;
     
 }
-.border h3{
-    margin-top: 2rem;
-    margin-left: 1rem;
-}
 .border-sec1{
     display: flex;
     justify-content: space-between;
-    
 }
 .about-left-title{
     margin-bottom: 1rem;
@@ -212,7 +207,7 @@ a:hover{
 
 .skill{
     width: 100%;
-    height: 500px;
+   
 }
 .svg-size >  a:hover{
     padding: 0;
@@ -346,7 +341,7 @@ path{
 
 
 
-/* tablet 1024-720 */
+/* tablet 1024-768 */
 @media screen and (max-width:1024px){
         *{
         font-size: 1rem;
@@ -375,7 +370,22 @@ path{
             letter-spacing: 0.8rem;
             margin: 1rem;
         }
-
+        /* about */
+        .border-sec1{
+            display: flex;
+        }
+        .about-item1{
+            width: 80%;
+            position: static;
+            margin: 1rem auto 0;
+            font-size: 0.8rem;   
+        }
+        /* .about-right{
+            width: 60%;
+        } */
+        .about-pic{
+            width: 250px; 
+        }
         /* work part */
         .workgrid{
             width: 100%;
@@ -392,7 +402,7 @@ path{
     *{
         font-size: 0.8rem;
         }
-
+  
     .nav{
          width: 60%;
     }
@@ -401,7 +411,7 @@ path{
         padding: 0.2rem;
     }
     .ban-pic{
-        margin: 1rem 0 0;
+        margin: 1rem 0 1;
     }
     .ban-info{
         margin: 0;
@@ -426,6 +436,71 @@ path{
         font-size: 1rem;
         padding: 0;
     }
+    /* about me */
+    .border-sec1{
+        display: block;
+    }
+ 
+    
+    .about-left-title h3{
+        margin: 1rem 0;
+        font-size: 1.2rem;
+        letter-spacing: 0;
+    }
+    .about-item1{
+        width: 80%;
+        position: static;
+        margin: 1rem auto 0;
+        font-size: 0.8rem;
+               
+    }
+    .about-right{
+        margin: 1rem;
+    }
+    .about-pic{
+        width: 100%;
+    }
+    .about-right-text{
+        line-height: 0.8rem;
+        font-size: 0.6rem;
+    }
+    .svg-position h3{
+   
+        font-size: 0.8rem;
+        font-weight: 700;  
+        letter-spacing: 2px;
+    }
+    .tabs{
+       display: block;
+    }
+    .tab-list{
+        display: flex;
+    }
+    .svg-size{
+        width: 4.5rem;
+    }
+    .svg-size-big{
+        width: 100%;
+    }
+    .skill-detail{
+        padding: 0;
+    }
+    .tab-panel{
+        transform: translate(-50%, -60%);
+    }
+    .tab-panel h3{
+        margin: 0.2rem;
+        font-size:0.8rem;
+    }
+    .tab-panel p{
+        margin: 0.1rem;
+        font-size: 0.6rem;
+        letter-spacing: 0.1rem;
+    }
+
+
+
+
     /* work part */
     .workgrid{
         width: 100%;
