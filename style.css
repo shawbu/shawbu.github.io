@@ -307,6 +307,7 @@ path{
     margin: 2rem ;
     background-color: rgb(211, 125, 125);
     border-radius: 20px;
+    box-shadow: 10px 10px 30px  rgba(151, 79, 79, 0.5);
 }
 
 .card-title h3{
@@ -321,15 +322,10 @@ path{
     padding: 1rem;
     letter-spacing: 0.2rem;
    
-    
 }
 .card-title a:hover{
   background-color: rgba(255, 255, 255, 0.2);
  
-}
-.iframe-size{
-    width: 100%;
-  
 }
 
 .card-detail{
@@ -361,6 +357,7 @@ path{
     background-color: rgb(211, 125, 125);
     border-radius: 20px;
     margin:  2.5% ;
+    box-shadow: 10px 10px 20px  rgba(151, 79, 79, 0.5);
 }
 .card-img-size{
     width: 50%;
