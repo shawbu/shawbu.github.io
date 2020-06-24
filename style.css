@@ -348,19 +348,58 @@ path{
     font-size: 1rem;
     margin-right:1rem;
 }
-    /*  ai-sec */
+ /*  ai-sec */
+ .ai-sec{
+    width: 90%;
+    margin: 0 auto;
    
-.ai-sec{
-   display: flex;
-   justify-content:center ;
-   flex-wrap: wrap;
+    padding: 1rem;
 }
+.ai-sec>h2{
+    padding: 1rem;
+}
+                 /* Slider */
+                .glide  {
+                    position: relative;
+                    display: flex;
+                    width:100%;
+                }
+
+                .glide__track { 
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                }
+
+                .glide__slides {
+                    height: 100%;
+                }
+
+                .glide__slide {        
+                    position: relative;
+                    display: flex;
+                    padding: 1rem;
+                    opacity: 0.7;
+                } 
+                .glide__slide--active{
+                    opacity: 1;
+                    transition: 0.5s;
+                }
+                .glide__arrow--left{left:-5%}
+                .glide__arrow--right{right:-5%}
+                .glide__bullets{
+                    bottom: -5%;
+                }
+                .glide__bullet--active{
+                    background-color:  rgb(211, 125, 125);
+                }
+
 .ai-card{
-    width: 20%;
+    width:100%;
     background-color: rgb(211, 125, 125);
     border-radius: 20px;
     margin:  2.5% ;
-    box-shadow: 10px 10px 20px  rgba(151, 79, 79, 0.5);
+    box-shadow: 10px 10px 10px  rgba(151, 79, 79, 0.5);
 }
 .ai-card-link{
     position: relative;
@@ -377,55 +416,13 @@ path{
     bottom: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.452);
-    
-
+    background-color: rgba(255, 255, 255, 0.452);    
 }
-
 .card-img-size{
     width: 50%;
     margin: 0 auto;
 }
-/* Slider */
-.slide-viewer{
-    position: relative;
-    overflow: hidden;
-    height: 300px;
 
-   
-    margin: 0 auto;
-}
-.slide-group{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.slide{
-    width: 100%;
-    height: 100%;
-    display: none;
-    position: absolute;
-}
-.slide:first-child{
-    display: block;
-}
-
-.slide-buttons {
-    text-align: center;
-}
-  
-.slide-btn {
-    border: none;
-    background: none;
-    color: rgb(102, 0, 0);
-    font-size: 200%;
-  
-    outline: none;
-}
-.slide-btn.active, .slide-btn:hover {
-    color: #ed8e6c;
-    cursor: pointer; /*鼠標的圖形*/
-}
     
 /* Contact me */
 .contact-sec{
