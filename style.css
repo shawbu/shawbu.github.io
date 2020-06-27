@@ -602,22 +602,29 @@ path{
         width: 100%;
     }
       /* ai sec */
-    .ai-card{
-        margin: 1rem 0;
-        padding: 0;
-    }
-    .card-title{
-        width: 100%;
-    }
-    .card-title h3{
-        font-size: .8rem;
-    }
-    .card-detail p{
-        font-size: 0.9rem;
-    }
-        /* slider */
-        .glide__slide {         
+        .ai-sec{
+        width: 90%;
+        margin: 0 auto; 
+        padding: 5%;
+        }
+        .ai-card{
+            margin: 1rem 0;
             padding: 0;
-        } 
+        }
+        .card-title{
+            width: 100%;
+            
+        }
+        .card-title h3{
+            font-size: .8rem;
+            letter-spacing: 0;
+        }
+        .card-detail p{
+            font-size: 0.9rem;
+        }
+            /* slider */
+            .glide__slide {         
+                padding: 0;
+            } 
 
 }
