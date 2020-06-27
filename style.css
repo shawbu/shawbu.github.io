@@ -300,6 +300,7 @@ path{
 .fond-end-sec{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .card{
     width: 50%;
@@ -338,7 +339,10 @@ path{
     
 }
 .card-hashtag{
-    padding:1rem;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .hashtag{
     background-color: rgba(247, 205, 205, 0.5);
@@ -351,8 +355,7 @@ path{
  /*  ai-sec */
  .ai-sec{
     width: 90%;
-    margin: 0 auto;
-   
+    margin: 0 auto; 
     padding: 1rem;
 }
 .ai-sec>h2{
@@ -469,13 +472,24 @@ path{
             margin: 1rem auto 0;
             font-size: 0.8rem;   
         }
-        /* .about-right{
-            width: 60%;
-        } */
+     
         .about-pic{
             width: 250px; 
         }
         /* work part */
+        .card{
+            width: 80%;
+        }
+        /* ai sec */
+        .card-title{
+            width: 100%;
+        }
+        .card-title h3{
+            font-size: 1rem;
+        }
+        .card-detail p{
+            font-size: 0.9rem;
+        }
 
     }
 /* smartphone */
@@ -579,11 +593,31 @@ path{
         font-size: 0.8rem;
         letter-spacing: 0.2rem;
     }
-
-
-
-
     /* work part */
-    
+    .works{
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .card{
+        width: 100%;
+    }
+      /* ai sec */
+    .ai-card{
+        margin: 1rem 0;
+        padding: 0;
+    }
+    .card-title{
+        width: 100%;
+    }
+    .card-title h3{
+        font-size: .8rem;
+    }
+    .card-detail p{
+        font-size: 0.9rem;
+    }
+        /* slider */
+        .glide__slide {         
+            padding: 0;
+        } 
 
 }
