@@ -321,17 +321,14 @@ path{
     background-color: rgb(207, 135, 135);
     box-shadow: 10px 10px 30px  rgba(151, 79, 79, 0.8);
 }
-.card-title h3{
-    display: inline;
-    /* transition: 1s;  */
-}
-.card-title a{ 
-    /* transition: 2s; */
-}
-.card-title{
+
+
+.front-end-title{
     padding: 1rem;
     letter-spacing: 0.2rem;
+    margin: 1rem;
 }
+
 .card-detail{
     padding:1rem ;
     font-size: 1rem;
@@ -395,6 +392,10 @@ path{
                 }
                 .glide__bullet--active{
                     background-color:  rgb(211, 125, 125);
+                }
+                .ai-card-title{
+                    padding: 1rem;
+                    letter-spacing: 0.2rem;
                 }
 
 .ai-card{
@@ -480,11 +481,18 @@ path{
         .card{
             width: 80%;
         }
+   
+        .front-end-title{
+            padding: 1rem;
+            letter-spacing: 0.2rem;
+            margin: 1rem;
+            font-size: 2rem;
+        }
         /* ai sec */
         .card-title{
             width: 100%;
         }
-        .card-title h3{
+        .ai-card-title{
             font-size: 1rem;
         }
         .card-detail p{
@@ -551,6 +559,7 @@ path{
     }
     .about-right{
         margin: 1rem;
+      
     }
     .about-pic{
         width: 100%;
@@ -601,6 +610,13 @@ path{
     .card{
         width: 100%;
     }
+
+    .front-end-title{
+        padding: 1rem;
+        letter-spacing: 0.2rem;
+        font-size: 1.5rem;
+
+    }
       /* ai sec */
         .ai-sec{
         width: 90%;
@@ -615,9 +631,10 @@ path{
             width: 100%;
             
         }
-        .card-title h3{
+        .ai-card-title{
             font-size: .8rem;
             letter-spacing: 0;
+         
         }
         .card-detail p{
             font-size: 0.9rem;
